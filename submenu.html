@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .sb{
+            display: block;
+            position: relative;
+        }
+    
+        .sbbtn{
+            padding: 10px;
+            min-width: 100px;
+            border:none;
+            background-color: rgb(223, 194, 155);
+            font-weight: 10px;
+            
+        }
+        .sbbtn:hover{
+            background-color: rgb(223, 194, 155);
+            cursor: pointer;
+
+
+
+        }
+        .sblist{
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 8px 0px;
+            display: none;
+
+
+        }
+        .sblist a{
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .sblist a:hover{
+            background-color: rgb(157, 201, 239);
+        }
+        .sb:hover .sblist{
+            display: block;
+        }
+
+
+    </style>
+    <head>
+        <title>SUBMENU</title>
+    </head>
+    <body>
+        <h1>submenu</h1>
+        <div class="sb">
+         <button class="sbbtn">menu</button><br>
+            <div class="sblist">
+            <a href="#">courses</a>
+            <a href="#">certificates</a>
+            <a href="#">skills</a>
+         </div>
+        
+        
+         
+        </div>
+       
+            
+           </div>
+   
+
+         
+        
+    </body>
+</html>
